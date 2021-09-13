@@ -1,0 +1,9 @@
+[master]
+master.example.com
+
+[one_slave]
+slave.example.com
+
+[many_slaves]
+slave1.example.com slave_agent_name=slave1
+slave2.example.com slave_agent_name=slave2

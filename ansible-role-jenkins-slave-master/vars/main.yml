@@ -1,0 +1,10 @@
+---
+ #vars file for jenkins-slave
+- name: "Install jenkins-slave on remote hosts using default 'Username with password' credentials"
+  hosts: slave
+
+  vars:
+    master_host: master.example.com
+
+  roles:
+    - role: lean_delivery.jenkins_slave
